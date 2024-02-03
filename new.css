@@ -1,0 +1,252 @@
+body {
+
+    margin: 0px;
+    scroll-behavior:smooth;
+
+}
+
+#hom{
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+/* header.... */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    padding: 5px;
+    box-shadow: 1px 5px 10px hsl(0, 0%, 7%);
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(3, 23, 158);
+    font-weight:bolder;
+    font-size: 15px;
+
+}
+header a:hover{
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+}
+header span{
+    color: #d68411;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+
+/* Main page */
+.out {
+    width: 100%;
+    height: 100vh;
+    background-image: url(123.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 8px 7px black;
+
+}
+
+
+/* welcome design */
+.wel h1 {
+    text-shadow: 0px 1px 3px #d68411;
+}
+
+.wel {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #df8911;
+    padding: 2px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 90px;
+    box-shadow: 0px 2px 10px #ffc800;
+}
+
+.h333 {
+    margin: 20px;
+    text-align: center;
+    color: #df8911;
+    text-shadow: 0px 0px 1px rgb(255, 200, 0);
+    font-family: cursive;
+}
+
+/* after wel to explore */
+.oe a {
+    text-decoration: none;
+    color: rgb(10, 8, 125);
+}
+
+.oe {
+    background-image: linear-gradient(to right bottom, #283ee6, #d700a8, #ff005e, #fa731e, #d1b106);
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+    font-size:larger;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.oe:hover{
+    box-shadow: 0px 0px 15px rgb(3, 120, 255);
+    transform: scale(1.5);
+}
+
+
+
+
+.discover {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px black;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.discover span {
+    color: #ff9500;
+    text-shadow: 0px 0px 10px black;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+.pra {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+
+.pra a {
+    box-shadow: 0px 0px 10px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #0d037b;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom:30px;
+    width: 250px;
+    height: 50px
+    
+}
+
+
+.pra a:hover{
+    background-color: #dda200;
+    transform: scaleX(1.1);
+}
+
+
+.foot{
+    background-color: #0a0075;
+    width: 100%;
+    box-shadow: 0px 0px 8px 5px rgb(0, 12, 97);
+    
+}
+
+.fd{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.fdc{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #dda200;
+    font-style: oblique;
+}
+
+
+
+
+.fdf{
+    margin: 30px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+ .fdf a{
+    padding: 3px;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 5px;
+}
+.fde{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.fde a{ 
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    box-shadow: 0px 0px 5px white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fde:hover{
+    transform: scale(1.1);
+}
+
+.fd a:hover{
+    transform: scale(1.2);
+}
+
+
+
+
